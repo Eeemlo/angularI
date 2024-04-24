@@ -14,10 +14,10 @@ result: number = 0;
 
   //Methods
   celsiusToFahrenheit(): void {
-    this.result = this.ctofnum * 1.8 + 32;
+    this.result =+ (this.ctofnum * 1.8 + 32).toFixed(3);
   }
 
   fahrenheitToCelsius(): void {
-    this.result = (this.ctofnum - 32) / 1.8;
+    this.result =+ ((this.ctofnum - 32) / 1.8).toFixed(3);
   }
 }

@@ -15,10 +15,10 @@ export class MeterConverterComponent {
 
   //Methods
   meterToFeet(): void {
-    this.result = this.mtofeetnum / 0.3048;
+    this.result =+ (this.mtofeetnum / 0.3048).toFixed(3);
   }
 
   feetToMeter(): void {
-    this.result = this.mtofeetnum * 0.3048;
+    this.result =+ (this.mtofeetnum * 0.3048).toFixed(3);
   }
 }

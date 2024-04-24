@@ -42,5 +42,22 @@ button {
 }
 
 button:hover {
-    background-color:  rgba(253, 150, 39, 0.603);
+    background-color: rgba(253, 150, 39, 0.603);
+}
+
+@media screen and (max-width: 515px) {
+    .container {
+        min-height: 320px;
+        max-width: 320px;
+        background-size: cover;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    input {
+        width: 212px;
+    }
+
 }

@@ -35,3 +35,14 @@ a:hover {
 .current {
     background-color: rgba(255, 132, 0, 0.603);
 }
+
+@media screen and (max-width: 515px) {
+ul {
+    margin-right: 0%;
+}
+
+    a {
+    padding: 0.5em 0.8em;
+}
+
+}
