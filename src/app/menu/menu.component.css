@@ -1,0 +1,29 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.416);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:10;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+
+a { 
+    padding: 1.15em 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    background-color: rgba(255, 132, 0, 0.603);
+}

@@ -1,0 +1,32 @@
+div {
+    width: 100vw;
+    height: fit-content;
+    position: relative; 
+  }
+  
+  img {
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .custom-shape-divider-bottom {
+    position: absolute; 
+    bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1; 
+  }
+  
+  .custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.8px);
+    height: 69px;
+  }
+  
+  .custom-shape-divider-bottom .shape-fill {
+    fill: #ffca60;
+  }

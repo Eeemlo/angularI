@@ -1,0 +1,15 @@
+div {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    max-width: 700px;
+    width: 100%;
+    border: 6px solid rgba(255, 132, 0, 0.603);
+    border-radius: 50px;
+    margin: 0 auto;
+}

@@ -1,6 +1,23 @@
-<!--Statiskt innehåll som ska finnas på samtliga sidor-->
-<header>
-  <app-menu></app-menu>
-</header>
-<!--Dynamiskt innehåll från components-->
-<router-outlet />
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Statiskt innehåll som ska finnas på samtliga sidor-->
+  <header>
+    <app-menu></app-menu>
+  </header>
+  
+  
+  <main>
+  <!--Dynamiskt innehåll från components-->
+  <router-outlet />
+  </main>
+  
+  <app-footer></app-footer>
+  </body>
+</html>
