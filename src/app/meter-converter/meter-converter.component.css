@@ -22,6 +22,7 @@
 input {
     width: 292px;
     margin-bottom: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .buttons {
@@ -38,6 +39,7 @@ button {
     min-height: 2em;
     height: 100%;
     margin: 0.2em 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 button:hover {

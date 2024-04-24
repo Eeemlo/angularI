@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
+Den här webbplatsen har skapats med ramverket Angular och består av tre "undersidor". Totalt har åtta komponenter skapats till webbplatsen - tre komponenter som motsvarar respektive "undersida", en komponent för celsius ⇄ fahrenheit-konverteraren, en komponent för fot ⇄ meter-konverteraren, en komponent för header, en för footer, en för huvudmeny och en för headern som återfinns på startsidan.
+
+
+Navigeringen i huvudmenyn har skapats med Angulars router-modul. Konverteringskomponenterna har skapats med databindning och Angulars FormsModule.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
