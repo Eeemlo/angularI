@@ -1,4 +1,10 @@
 footer {
     background-color:  rgba(255, 132, 0, 0.603);
     min-height: 50px;
+    margin-top: 3em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }

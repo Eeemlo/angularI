@@ -1,0 +1,46 @@
+.container {
+    min-height: 500px;
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(/assets/poppy_frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2em auto;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 292px;
+    margin-bottom: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: rgba(255, 132, 0, 0.603);
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+    min-height: 2em;
+    height: 100%;
+    margin: 0.2em;
+    padding: 0 0.5em;
+}
+
+button:hover {
+    background-color:  rgba(253, 150, 39, 0.603);
+}
